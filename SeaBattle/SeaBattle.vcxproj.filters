@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{0eb4d4e6-f573-4ab2-9aa6-dc1de4d7c1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{81dca74a-7354-4ec4-9a27-1112a04cd532}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetEnemyFleet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPlayerFleetAuto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPlayerFleetManual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetShipAuto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetShipManual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TryingPlacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsKilled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeZoneMarking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SeaBattle.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\BigExplosion.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\boo.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\cheering.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\HeyPirates.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\KORB5.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\LAUGH.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\mortar_incoming.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\plongeon.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\Shot.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\WAAH.wav">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Message\ship_placement.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\player_fleet_set.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\enemy_fleet_set.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\enemy_step.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\catch.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\kill.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\wound.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\bonus_enemy_step.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\fail.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\your_step.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\cordinates.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\old_cordinates.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\bonus_player_step.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\wrong_cordinates.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\victory.wav">
+      <Filter>Message</Filter>
+    </Media>
+    <Media Include="Message\defeat.wav">
+      <Filter>Message</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
